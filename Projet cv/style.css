@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Josefin+Sans:wght@600&family=Rambla&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background:url(./ressources/header-modified.jpg) no-repeat fixed 50% 50%;
+    background-size: cover;
+}
+.navbar {
+    text-decoration: none;
+    background-color: blueviolet;
+}
+.navbar li {
+    font-size: larger;
+}
+#titre {
+    margin-top: 50px;
+}
+h1, h2 {
+    padding: 30px 10px;
+    font-family: 'Audiowide', cursive;
+    text-align: center;
+    text-shadow: 1px 1px 1px blueviolet;
+}
+#line {
+    border-bottom: 1px solid blueviolet;
+    width : 30%;
+    margin: 0 auto;
+}
+.monLogo img {
+    border-radius: 5px;
+    box-shadow: 1px 3px blueviolet;
+}
+p {
+    padding: 15px 0;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.card {
+    border-radius: 5px;
+    box-shadow: 1px 3px blueviolet;
+}
+.card .btn {
+    background-color: blueviolet;
+    font-size: larger;
+}
+#skills {
+    margin: 30px;
+}
+.barNodeJs img {
+    height: 20px;
+    width: auto;
+}
